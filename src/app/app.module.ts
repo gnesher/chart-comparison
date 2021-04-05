@@ -17,6 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxlineComponent } from './ngxchartscontainer/ngxline/ngxline.component';
 import {PortalModule} from '@angular/cdk/portal';
 import { NgxbarComponent } from './ngxchartscontainer/ngxbar/ngxbar.component';
+import { NgxdoughnutComponent } from './ngxchartscontainer/ngxdoughnut/ngxdoughnut.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NgxbarComponent } from './ngxchartscontainer/ngxbar/ngxbar.component';
     Ng2Component,
     NgxComponent,
     NgxlineComponent,
-    NgxbarComponent
+    NgxbarComponent,
+    NgxdoughnutComponent
   ],
   imports: [
     BrowserModule,
